@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Verificient Monitor</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        body {background-color: rgb(248, 247, 247);}
+        button
+        {
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body oncontextmenu="return false;" style="background: white;">
+
+    <br>
+    <br>
+    <div id="button">
+    <button id="screenShot"> Start Monitor </button>
+    <br>
+    <button id="stopMonitoring"> Stop Monitor </button>
+    <br>
+    <label for="DetailsArea">System Details:</label>
+    <br>
+    <textarea id="DetailsArea" name="DetailsArea" rows="6" cols="30"></textarea>
+    <br>
+    <button id="cancel" >Cancel</button>
+    <br>
+    
+    </div>
+    
+
+</body>
+
+<script>
+    require('./index.js');
+</script>
+
+</html>

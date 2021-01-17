@@ -1,0 +1,25 @@
+{
+  "name": "VerificientInterviewApp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^9.4.0",
+    "electron-packager": "^15.2.0",
+    "electron-rebuild": "^2.3.4"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Yunus Yakub Saudagar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-powershell": "^4.0.0",
+    "ps-list": "^7.2.0",
+    "screenshot-desktop": "^1.12.3",
+    "systeminformation": "^4.34.5"
+  }
+}
